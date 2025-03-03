@@ -36,3 +36,64 @@ Utilisation	        Petits réseaux                  Réseaux performants
 4) Can you identify the OSI model layer that the switch and the hub operate on?
 - le hub fonctionne à la couche 1 (Physique). il ne fait que transmettre les signaux sans les comprendre
 - le switch fonctionne à la couche 2 (Liaison de données). il utilise les adresses MAC pour gérer le trafic et éviter les collisions.
+
+## EX01:
+1) What is a server and what is its purpose in networking?
+- un serveur est un ordinateur puissant qui fournit des services à d'autres ordinateurs
+
+2) How does DHCP work in a network and what is its function?
+- le DHCP attribut automatiquement des adresses ip aux appareils d'un réseau.
+- il évite de configurer chaque appareil manuellement.
+
+3) What is the definition of DNS and what role does it play in network communication?
+- le DNS traduit un nom de domain en une adresse ip.
+- Sans dns il faudrait retenir toutes les adresses ip des sites web.
+
+4) What is the purpose of HTTP and how is it used in networking?
+- le http permet de charger des pages web sur un navigateur.
+- il utilise le port et fonctionne sans cryptage.
+
+5) What is HTTPS and how does it differ from HTTP?
+- c'est la version sécurisée de http.
+- plus sécurisée.
+- port 443
+
+6) What is the purpose of FTP and how does it operate in network communication?
+- permet de tranférer un fichier entre un client et un server.
+- connection de commade
+- transfert de fichier
+
+7) What is TCP and UDP communication and what distinguishes them from each other?
+- ce sont 2 protocoles de communication utilisés pour transmettre des données.
+- 📌 TCP
+    - connexion fiable (les données arrivent bien)
+    - utilisé pour le web, les emails, le ftp.
+    - plus lent mais sécurisé
+- 📌 UDP
+    - pas de vérification, plus rapide que TCP
+    - utilisé pour les jeux en ligne, le streaming etc.
+    - moins fiable (perte possible de paquets)
+
+8) At which OSI model layer do TCP and UDP operate?
+- TCP et UDP fonctionnent à la couche 4 (Transport) du modèle OSI.
+
+9) What is a port in networking and what is its function?
+- un port est un numéro qui identifie un numéro spécifique sur un ordinateur. cela permet à plusieurs services de fonctionner sur un même ordinateur.
+
+10) What are the port and OSI model layer for each protocol used?
+- port:
+    - http(80), https(443), dns(53), ftp(21/21), dhcp(67/68)
+- couche:
+    - couche 7 (Application)
+
+11) What are the various types of DNS records and what are their purposes?
+```
+Type d’enregistrement	                Rôle
+A	                                    Associe un nom de domaine à une adresse IPv4.
+AAAA	                                Associe un nom de domaine à une adresse IPv6.
+CNAME	                                Alias d’un autre domaine (ex: www.example.com → example.com).
+MX	                                    Indique les serveurs de messagerie (emails).
+PTR	                                    Fait l’inverse du A (IP vers nom de domaine).
+NS	                                    Indique les serveurs DNS responsables du domaine.
+TXT	                                    Stocke des informations diverses (vérification SPF pour les emails).
+```
