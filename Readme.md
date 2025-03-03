@@ -97,3 +97,18 @@ PTR	                                    Fait l’inverse du A (IP vers nom de do
 NS	                                    Indique les serveurs DNS responsables du domaine.
 TXT	                                    Stocke des informations diverses (vérification SPF pour les emails).
 ```
+
+## EX04:
+1) What is a router and what is its role?
+- un router est un appareil réseau qui connecte plusieurs réseaux ensemble et dirige le trafic entre eux.
+- permettre la communication entre réseaux locaux et internet.
+
+2) Differentiate between the switch and the router.
+- Un switch travaille dans un réseau local (il relie les PC entre eux)
+- Un router connecte plusieurs réseaux et permet l'accés à l'internet
+
+3) Identify the OSI model layer where a router operates.
+- à la couche 3 (couche Réseau)
+
+4) Understand the term "default gateway"
+- l'adresse ip du routeur pour sortir du réseau local.
