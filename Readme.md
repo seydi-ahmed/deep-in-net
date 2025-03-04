@@ -56,17 +56,3 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
 ## Développeur:
 - Prénom NOM: Mouhamed DIOUF
 - Email: Diouf.mouhamed3@ugb.edu.sn
-
-
-***************************************
-
-
-git config --global user.email "seydiahmedelcheikh@gmail.com"
-git config --global user.name "mouhameddiouf"
-git config credential.helper store
-git add .
-git commit -m "Readme done"
-git push
-
-
-
