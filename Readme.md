@@ -35,7 +35,7 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
    - Configurer les interfaces avec les adresses IP appropriées.
    - Ajouter des routes statiques pour permettre la communication entre les sous-réseaux.
 
-3. **Configuration des Switches :**
+3. **Configuration des Switches :** (si necessaire)
    - Créer des VLANs sur les switches.
    - Assigner les ports des switches aux VLANs appropriés.
    - Configurer le trunking entre les switches si nécessaire.
@@ -48,10 +48,6 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
    - Utiliser la commande `ping` pour vérifier la connectivité entre les périphériques.
    - Utiliser la commande `tracert` pour tracer le chemin des paquets.
    - Vérifier les tables de routage sur les routeurs.
-
-6. **Documentation :**
-   - Documenter chaque étape de la configuration.
-   - Noter les problèmes rencontrés et les solutions appliquées.
 
 ## Conclusion
 
