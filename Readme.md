@@ -127,3 +127,6 @@ TXT	                                    Stocke des informations diverses (vérif
 
 4) Understand the term "default gateway"
 - l'adresse ip du routeur pour sortir du réseau local.
+
+
+
