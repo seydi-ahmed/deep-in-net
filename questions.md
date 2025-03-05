@@ -113,4 +113,12 @@ les enregistrements DNS sont sont utilisés pour gérer la résolution des noms 
 - un switch gére la communication dans une réseau
 
 # At which OSI model layer does a router operate?
-- un routeur opère à couche 3.
+un routeur opère à couche 3.
+
+# What is meant by the term "default gateway" in networking?
+le defaut gateway (passerelle par défaut) désigne le routeur à un appareil d'accéder à un réseau extérieur.
+
+# routing table?
+- une table de routage est une base de données stockée dans un routeur ou un appareil réseau.
+- elle dirige le trafic entre les réseaux et garantit que les paquets atteignent leur destination.
+
