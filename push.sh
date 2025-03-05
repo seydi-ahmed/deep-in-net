@@ -2,5 +2,5 @@ git config --global user.email "seydiahmedelcheikh@gmail.com"
 git config --global user.name "mouhameddiouf"
 git config credential.helper store
 git add .
-git commit -m "DHCP: work and functions"
+git commit -m "DNS: work and functions"
 git push

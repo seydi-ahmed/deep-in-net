@@ -50,4 +50,9 @@ câble utilisé pour les connexions réseau
 - évite la gestion manuelle des adresses ip.
 - empêche les conflits entre les adresses ip.
 
+# What is the definition of DNS and what role does it play in network communication?
+- il traduit les noms de domaine en adresse ip.
+- facilite l'accés aux sites web.
+- améliore l'efficacité de la navigation.
+
 # 
