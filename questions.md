@@ -107,3 +107,9 @@ les enregistrements DNS sont sont utilisés pour gérer la résolution des noms 
 - transmettre des données
 - choisir le meilleur chemin
 - garantir une communication fluide
+
+# How does a switch differ from a router in terms of functionality?
+- un router gére la communication entre réseaux
+- un switch gére la communication dans une réseau
+
+# 
