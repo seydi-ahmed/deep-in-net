@@ -34,4 +34,7 @@ câble utilisé pour les connexions réseau
 - il reçoit les données d'un appareil et les distribue à tous les appareils connectés. maintenant c'est aux appareils de vérifier si les données leur sont destinées.
 - tout comme un switch mais en plus lent.
 
+# What are the differences between a hub and a switch?
+- un switch envoie les données au bon destintaire tandis qu'un hub envoie les données à tous les appareils connectés.
+
 # 
