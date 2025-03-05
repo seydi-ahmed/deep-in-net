@@ -100,6 +100,10 @@ les enregistrements DNS sont sont utilisés pour gérer la résolution des noms 
 - MX: gestion des emails
 - TXT: vérification et sécurité
 - NS: gestion des serveurs DNS
-etc.
+- etc.
 
-# 
+# What is a router and what is its role in a network?
+- un appareil qui connecte plusieurs réseaux et dirige le trafic entre eux.
+- transmettre des données
+- choisir le meilleur chemin
+- garantir une communication fluide
