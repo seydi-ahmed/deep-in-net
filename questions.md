@@ -24,4 +24,9 @@ câble utilisé pour les connexions réseau
         - adresses disponibles: de 192.168.1.1 à192.168.1.254
 - en résumé une adresse réseau est calculée en utilisant le masque de sous-réseau en séparant la partie réseau et la partie appareil. ensuite on attribue les adresses disponibles aux différents appareils.
 
+# What is the function of a switch, how does it operate and what is its role in networking?
+- un switch connecte des appareils d'un réseau local
+- il apprend les adresses MAC des appareils connectés et envoie les données uniquement au bon destinataire
+- il optimise la communication dans le réseau (améliorer la rapidité du réseau, réduit les collisions)
+
 # 
