@@ -45,3 +45,9 @@ câble utilisé pour les connexions réseau
 - un serveur est un systéme qui fournit des services à des appreils appelés client dans un réseau.
 - stocker et partager des fichiers, héberger des sites web, gérer des emails etc. fournir des bases de données.
 
+# How does DHCP work in a network and what is its function?
+- il automatise la distribution des adresses ip dans un réseau.
+- évite la gestion manuelle des adresses ip.
+- empêche les conflits entre les adresses ip.
+
+# 
