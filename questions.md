@@ -70,4 +70,10 @@ câble utilisé pour les connexions réseau
 - gérer l'hébergement et la mise à jour des sites
 - etc.
 
+# What is TCP and UDP communication and what distinguishes them from each other?
+TCP et UDP sont deux protocoles de communication utilisés pour transférer des données sur un réseau.
+- fiabilité: TCP est plus fiable que UDP (avec TCP les données arrivent intactes et dans l'ordre)
+- vitesse: UDP est plus rapide que TCP
+- utilisation: TCP pour des données critiques, UDP pour des applications en temps réel.
+
 # 
