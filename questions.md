@@ -55,4 +55,9 @@ câble utilisé pour les connexions réseau
 - facilite l'accés aux sites web.
 - améliore l'efficacité de la navigation.
 
-# 
+# What is the purpose of HTTP and how is it used in networking?
+- il permet aux navigateurs et aux serveurs de communiquer pour afficher les sites web
+- transmettre des pages du serveur au navigateurs
+- permettre la navigation sur internet
+- utiliser des requêtes (GET, POST etc.) pour envoyer des informations
+
