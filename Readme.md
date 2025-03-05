@@ -9,45 +9,35 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
    - Configuration des interfaces avec des adresses IP.
    - Configuration des routes statiques pour permettre la communication entre les différents sous-réseaux.
 
-2. **Configuration des Switches :**
-   - Configuration des VLANs pour segmenter le réseau.
-   - Attribution des ports à des VLANs spécifiques.
-   - Configuration du trunking entre les switches pour permettre la communication entre VLANs.
-
-3. **Configuration des PC et Laptops :**
+2. **Configuration des PC et Laptops :**
    - Attribution d'adresses IP statiques ou configuration pour obtenir une adresse IP via DHCP.
-   - Vérification de la connectivité avec des commandes comme `ping` et `tracert`.
+   - Vérification de la connectivité avec des commandes comme `ping` ou directement via le logo de message.
 
-4. **Test et Validation :**
+3. **Test et Validation :**
    - Utilisation de `ping` pour vérifier la connectivité entre les différents périphériques.
-   - Utilisation de `tracert` pour tracer le chemin des paquets à travers le réseau.
-   - Vérification des tables de routage sur les routeurs pour s'assurer que les routes sont correctement configurées.
 
 ## Étapes pour Recréer l'Architecture Réseau
-
-1. **Planification du Réseau :**
-   - Déterminer le nombre de sous-réseaux nécessaires.
-   - Assigner des plages d'adresses IP à chaque sous-réseau.
-   - Planifier les connexions entre les routeurs, switches, et périphériques finaux.
-
-2. **Configuration des Routeurs :**
-   - Accéder au mode de configuration globale sur chaque routeur.
-   - Configurer les interfaces avec les adresses IP appropriées.
-   - Ajouter des routes statiques pour permettre la communication entre les sous-réseaux.
-
-3. **Configuration des Switches :** (si necessaire)
-   - Créer des VLANs sur les switches.
-   - Assigner les ports des switches aux VLANs appropriés.
-   - Configurer le trunking entre les switches si nécessaire.
-
-4. **Configuration des PC et Laptops :**
-   - Assigner des adresses IP aux PC et laptops.
-   - Configurer les paramètres réseau pour utiliser DHCP si nécessaire.
-
-5. **Test de la Connectivité :**
-   - Utiliser la commande `ping` pour vérifier la connectivité entre les périphériques.
-   - Utiliser la commande `tracert` pour tracer le chemin des paquets.
-   - Vérifier les tables de routage sur les routeurs.
+Pour cette partie, nous allons expliquer le "bonus.pkt" qui est plus complet et plus complexe.
+1) configuration d'un réseau (3 pcs, 1 switch, 1 routeur, 1 serveur)
+- placement
+   - 12 PC
+   - 4 Serveurs DHCP
+   - 4 switchs
+   - 4 routeurs
+   - chaque switch est lié à:
+      - 3 pcs
+      - 1 serveur DHCP
+      - 1 router
+   - les routeurs sont liés entre eux
+- distribution des adresses ip
+   - nous allons donner une adresse ip et un masque à chaque serveur DHCP
+   - activer le DHCP dans service
+   - activer DHCP dans les pcs
+2) configuration des routeurs pour les réseaux locaux
+- aller dans le routeur
+- dans config/rip mettre l'adresse réseau du réseau voulu
+- dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible
+3) configuration entre les routeurs
 
 ## Conclusion
 
