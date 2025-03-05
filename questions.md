@@ -79,4 +79,9 @@ TCP et UDP sont deux protocoles de communication utilisés pour transférer des 
 # At which OSI model layer do TCP and UDP operate?
 ils opérent tous les 2 à la couche 4 (Transport). cette couche est reponsable de la transmission des données entre les appareils.
 
+# What is a port in networking and what is its function?
+- un port est un point d'accés logiciel pour identifier un service ou une application.
+- identifier un service
+- orienter le trafic
+
 # 
