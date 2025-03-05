@@ -38,6 +38,11 @@ Pour cette partie, nous allons expliquer le "bonus.pkt" qui est plus complet et 
 - dans config/rip mettre l'adresse réseau du réseau voulu
 - dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible
 3) configuration entre les routeurs
+- même principe
+- allez dans chaque routeur
+- dans rip mettre l'adresse réseau
+- dans Se2/0 (où le câble correspondant) tu mets une adresse ip disponible dans le réseau
+4) configuration entre les machines de différents réseaux
 
 ## Conclusion
 
