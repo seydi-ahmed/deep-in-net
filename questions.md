@@ -112,4 +112,5 @@ les enregistrements DNS sont sont utilisés pour gérer la résolution des noms 
 - un router gére la communication entre réseaux
 - un switch gére la communication dans une réseau
 
-# 
+# At which OSI model layer does a router operate?
+- un routeur opère à couche 3.
