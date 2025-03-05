@@ -94,4 +94,12 @@ ils opérent tous les 2 à la couche 4 (Transport). cette couche est reponsable 
 - couche 4 (transport)
     - TCP et UDP: port variable car dépende de l'application
 
+# What are the various types of DNS records and what are their purposes?
+les enregistrements DNS sont sont utilisés pour gérer la résolution des noms de domaine en adresse ip et pour configurer d'autre aspects liés au domaines.
+- A / AAAA: résolution des noms en adresse ip
+- MX: gestion des emails
+- TXT: vérification et sécurité
+- NS: gestion des serveurs DNS
+etc.
+
 # 
