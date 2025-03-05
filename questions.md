@@ -29,4 +29,9 @@ câble utilisé pour les connexions réseau
 - il apprend les adresses MAC des appareils connectés et envoie les données uniquement au bon destinataire
 - il optimise la communication dans le réseau (améliorer la rapidité du réseau, réduit les collisions)
 
+# What is the function of a hub, how does it operate and what is its role in networking?
+- tout comme un switch, un hub permet de connecter tous les appareils d'un réseau local moins en intelligent
+- il reçoit les données d'un appareil et les distribue à tous les appareils connectés. maintenant c'est aux appareils de vérifier si les données leur sont destinées.
+- tout comme un switch mais en plus lent.
+
 # 
