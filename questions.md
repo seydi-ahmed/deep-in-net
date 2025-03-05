@@ -85,11 +85,13 @@ ils opérent tous les 2 à la couche 4 (Transport). cette couche est reponsable 
 - orienter le trafic
 
 # What are the port and OSI model layer for each protocol used?
-- les ports utilisé dans ce projet sont tous à la couche 7 (application)
-- HTTP: port 80
-- HTTPS: 443
-- DNS: 53
-- FTP: 20/21
-- DHCP: 67
+- couche 7 (application)
+    - HTTP: port 80
+    - HTTPS: 443
+    - DNS: 53
+    - FTP: 20/21
+    - DHCP: 67
+- couche 4 (transport)
+    - TCP et UDP: port variable car dépende de l'application
 
 # 
