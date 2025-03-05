@@ -62,3 +62,4 @@ câble utilisé pour les connexions réseau
 - utiliser des requêtes (GET, POST etc.) pour envoyer des informations
 
 # What is HTTPS and how does it differ from HTTP?
+- HTTPS est comme HTTP mais avec une sécurité renforcée (chiffrement SSL/TLS 🔒).
