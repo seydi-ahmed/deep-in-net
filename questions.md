@@ -37,4 +37,8 @@ câble utilisé pour les connexions réseau
 # What are the differences between a hub and a switch?
 - un switch envoie les données au bon destintaire tandis qu'un hub envoie les données à tous les appareils connectés.
 
+# Can you identify the OSI model layer that the switch and the hub operate on?
+- un switch fonctionne à la couche 2 (liaison de données). il utilise les adresses MAC pour envoyer les données au bon appareil.
+- un hub fonctionne à la couche 1 (physique). il transmet les signaux sans filtre ni analyse.
+
 # 
