@@ -63,3 +63,11 @@ câble utilisé pour les connexions réseau
 
 # What is HTTPS and how does it differ from HTTP?
 - HTTPS est comme HTTP mais avec une sécurité renforcée (chiffrement SSL/TLS 🔒).
+
+# What is the purpose of FTP and how does it operate in network communication?
+- il permet de tranférer un fichier entre un ordinateur et un serveur.
+- transférer rapidement un fichier sur un réseau
+- gérer l'hébergement et la mise à jour des sites
+- etc.
+
+# 
