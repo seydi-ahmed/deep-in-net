@@ -76,4 +76,7 @@ TCP et UDP sont deux protocoles de communication utilisés pour transférer des 
 - vitesse: UDP est plus rapide que TCP
 - utilisation: TCP pour des données critiques, UDP pour des applications en temps réel.
 
+# At which OSI model layer do TCP and UDP operate?
+ils opérent tous les 2 à la couche 4 (Transport). cette couche est reponsable de la transmission des données entre les appareils.
+
 # 
