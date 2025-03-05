@@ -41,4 +41,7 @@ câble utilisé pour les connexions réseau
 - un switch fonctionne à la couche 2 (liaison de données). il utilise les adresses MAC pour envoyer les données au bon appareil.
 - un hub fonctionne à la couche 1 (physique). il transmet les signaux sans filtre ni analyse.
 
-# 
+# What is a server and what is its purpose in networking?
+- un serveur est un systéme qui fournit des services à des appreils appelés client dans un réseau.
+- stocker et partager des fichiers, héberger des sites web, gérer des emails etc. fournir des bases de données.
+
