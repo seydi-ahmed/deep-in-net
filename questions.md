@@ -61,3 +61,4 @@ câble utilisé pour les connexions réseau
 - permettre la navigation sur internet
 - utiliser des requêtes (GET, POST etc.) pour envoyer des informations
 
+# What is HTTPS and how does it differ from HTTP?
