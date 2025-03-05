@@ -35,14 +35,18 @@ Pour cette partie, nous allons expliquer le "bonus.pkt" qui est plus complet et 
    - activer DHCP dans les pcs
 2) configuration des routeurs pour les réseaux locaux
 - aller dans le routeur
-- dans config/rip mettre l'adresse réseau du réseau voulu
-- dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible
+- dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible dans le réseau choisi
 3) configuration entre les routeurs
 - même principe
 - allez dans chaque routeur
-- dans rip mettre l'adresse réseau
-- dans Se2/0 (où le câble correspondant) tu mets une adresse ip disponible dans le réseau
-4) configuration entre les machines de différents réseaux
+- dans Se2/0 (où le câble correspondant) tu mets une adresse ip disponible dans le réseau choisi
+4) configuration entre les machines de différents réseaux (avec OSPF)
+- sur chaque routeur:
+   - enable
+   - configure terminal
+   - router OSPF 1
+   - network + ```adresse réseau à laquelle il(le routeur) appartient``` + ```l'inverse du mask(mettre des 0 à la place des 1 et des 1 à la place des 0) ``` + Enttrée
+   - 
 
 ## Conclusion
 
