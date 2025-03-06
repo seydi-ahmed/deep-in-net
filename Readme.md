@@ -47,3 +47,6 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
 ## Développeur:
 - Prénom NOM: Mouhamed DIOUF
 - Email: Diouf.mouhamed3@ugb.edu.sn
+
+## Calcul en ligne:
+- https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
