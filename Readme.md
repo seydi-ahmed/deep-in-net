@@ -22,13 +22,16 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
 - distribution des adresses ip:
    - trouver l'adresse réseau et le masque pour chaque réseau puis calculer la plage d'adresse disponibles
    - donner aux appreils des ip qui sont dans la plage
+
 2) configuration des routeurs pour les réseaux locaux
 - aller dans le routeur
 - dans config/interface/fastethernet(ou le câble utilisé) mettre le gateway du réseau
+
 3) configuration entre les routeurs
 - même principe
 - allez dans chaque routeur
 - dans Se2/0 (où le câble correspondant) mettre le gateway réseau choisi
+
 4) configuration entre les machines de différents réseaux (avec OSPF ou RIP)
 - OSPF: sur chaque routeur:
    - enable
@@ -38,6 +41,7 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
 - RIP: sur chaque routeur:
    - aller dans config/routing/rip
    - mettre l'adresse réseau(où les adresses) à la quelle le routeur apparatient
+
 5) commencer la simulation
 
 ## Conclusion
