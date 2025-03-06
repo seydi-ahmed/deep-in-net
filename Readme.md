@@ -17,36 +17,28 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
    - Utilisation de `ping` pour vérifier la connectivité entre les différents périphériques.
 
 ## Étapes pour Recréer l'Architecture Réseau
-Pour cette partie, nous allons expliquer le "bonus.pkt" qui est plus complet et plus complexe.
-1) configuration d'un réseau (3 pcs, 1 switch, 1 routeur, 1 serveur)
-- placement
-   - 12 PC
-   - 4 Serveurs DHCP
-   - 4 switchs
-   - 4 routeurs
-   - chaque switch est lié à:
-      - 3 pcs
-      - 1 serveur DHCP
-      - 1 router
-   - les routeurs sont liés entre eux
-- distribution des adresses ip
-   - nous allons donner une adresse ip et un masque à chaque serveur DHCP
-   - activer le DHCP dans service
-   - activer DHCP dans les pcs
+1) configuration de chaque réseau 
+- placement: placer les pc, switch, routeurs et éventuellement les serveurs
+- distribution des adresses ip:
+   - trouver l'adresse réseau et le masque pour chaque réseau puis calculer la plage d'adresse disponibles
+   - donner aux appreils des ip qui sont dans la plage
 2) configuration des routeurs pour les réseaux locaux
 - aller dans le routeur
 - dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible dans le réseau choisi
 3) configuration entre les routeurs
 - même principe
 - allez dans chaque routeur
-- dans Se2/0 (où le câble correspondant) tu mets une adresse ip disponible dans le réseau choisi
-4) configuration entre les machines de différents réseaux (avec OSPF)
-- sur chaque routeur:
+- dans Se2/0 (où le câble correspondant) umettre une adresse ip disponible dans le réseau choisi
+4) configuration entre les machines de différents réseaux (avec OSPF ou RIP)
+- OSPF: sur chaque routeur:
    - enable
    - configure terminal
    - router OSPF 1
-   - network + ```adresse réseau à laquelle il(le routeur) appartient``` + ```l'inverse du mask(mettre des 0 à la place des 1 et des 1 à la place des 0) ``` + Enttrée
-   - 
+   - network + ```adresse réseau à laquelle il(le routeur) appartient``` + ```l'inverse du mask(mettre des 0 à la place des 1 et des 1 à la place des 0) ``` + are 0 + Enttrée
+- RIP: sur chaque routeur:
+   - aller dans config/routing/rip
+   - mettre l'adresse réseau(où les adresses) à la quelle le routeur apparatient
+5) commencer la simulation
 
 ## Conclusion
 
