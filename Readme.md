@@ -24,11 +24,11 @@ Ce fichier README.md contient une clarification des connaissances acquises et de
    - donner aux appreils des ip qui sont dans la plage
 2) configuration des routeurs pour les réseaux locaux
 - aller dans le routeur
-- dans config/interface/fastethernet(ou le câble utilisé) mettre une adresse ip disponible dans le réseau choisi
+- dans config/interface/fastethernet(ou le câble utilisé) mettre le gateway du réseau
 3) configuration entre les routeurs
 - même principe
 - allez dans chaque routeur
-- dans Se2/0 (où le câble correspondant) umettre une adresse ip disponible dans le réseau choisi
+- dans Se2/0 (où le câble correspondant) mettre le gateway réseau choisi
 4) configuration entre les machines de différents réseaux (avec OSPF ou RIP)
 - OSPF: sur chaque routeur:
    - enable
