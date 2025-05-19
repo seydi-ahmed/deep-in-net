@@ -2,6 +2,9 @@
 
 Ce fichier README.md contient une clarification des connaissances acquises et des étapes suivies pour recréer l'architecture réseau dans Cisco Packet Tracer.
 
+## Lien vers l'exo
+https://github.com/01-edu/public/tree/master/subjects/devops/deep-in-net
+
 ## Connaissances Acquises
 
 1. **Configuration des Routeurs :**
