@@ -58,5 +58,5 @@ https://github.com/01-edu/public/tree/master/subjects/devops/deep-in-net
 - **Numéro** : +221776221681
 - **Réseaux** : [LinkedIn](https://linkedin.com/in/mouhamed-diouf-435207174)
 
-## Calcul en ligne:
+## Calcul (Ip, mask, etc.) en ligne:
 - https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
