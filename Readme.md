@@ -51,9 +51,12 @@ https://github.com/01-edu/public/tree/master/subjects/devops/deep-in-net
 
 À travers cet exercice, j'ai acquis une compréhension approfondie de la configuration des routeurs, switches, et périphériques finaux dans Cisco Packet Tracer. J'ai également appris à planifier et à tester un réseau complexe, en m'assurant que tous les éléments fonctionnent correctement ensemble.
 
-## Développeur:
-- Prénom NOM: Mouhamed DIOUF
-- Email: Diouf.mouhamed3@ugb.edu.sn
+## Auteur
+- **Nom** : Mouhamed DIOUF
+- **GitHub** : [mouhameddiouf](https://github.com/seydi-ahmed)
+- **Email** : seydiahmedelcheikh@gmail.com
+- **Numéro** : +221776221681
+- **Réseaux** : [LinkedIn](https://linkedin.com/in/mouhamed-diouf-435207174)
 
 ## Calcul en ligne:
 - https://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/
